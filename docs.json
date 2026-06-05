@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Wield",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0F3A52",
+    "light": "#3FB0CE",
+    "dark": "#0A2B3E"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -18,20 +18,50 @@
         ]
       }
     ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    "groups": [
+      {
+        "group": "Trading",
+        "pages": [
+          "evaluations",
+          "trading-accounts",
+          "payouts",
+          "tax",
+          "scaling"
+        ]
+      },
+      {
+        "group": "Get started",
+        "pages": [
+          "early-access",
+          "start"
+        ]
+      },
+      {
+        "group": "Help",
+        "pages": [
+          "faq"
+        ]
+      },
+      {
+        "group": "Legal",
+        "pages": [
+          "legal/terms",
+          "legal/contributor-agreement",
+          "legal/acceptable-use",
+          "legal/refund-policy",
+          "legal/pre-sale-disclosure",
+          "legal/privacy"
+        ]
+      },
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "how-it-works",
+          "platform"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -68,5 +98,13 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
-  }
+  },
+  "description": "Trading infrastructure for skill-based capital, built for Indian traders. Pass an evaluation, hold a funded engagement, and receive your earnings as documented INR to your bank.",
+  "redirects": [
+    {
+      "source": "/funded-accounts",
+      "destination": "/trading-accounts",
+      "permanent": true
+    }
+  ]
 }
