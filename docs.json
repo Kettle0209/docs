@@ -38,7 +38,7 @@
         ]
       },
       {
-        "group": "Get started",
+        "group": "Join",
         "pages": [
           "early-access",
           "start"
@@ -115,5 +115,12 @@
       "destination": "/trading-accounts",
       "permanent": true
     }
-  ]
+  ],
+  "seo": {
+    "metatags": {
+      "og:type": "website",
+      "og:site_name": "Wield"
+    },
+    "indexing": "all"
+  }
 }
