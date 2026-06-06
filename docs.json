@@ -26,7 +26,8 @@
         "group": "Getting Started",
         "pages": [
           "index",
-          "how-it-works"
+          "how-it-works",
+          "faq"
         ]
       },
       {
@@ -51,16 +52,10 @@
         ]
       },
       {
-        "group": "Join",
+        "group": "Get Access",
         "pages": [
           "early-access",
           "start"
-        ]
-      },
-      {
-        "group": "Help",
-        "pages": [
-          "faq"
         ]
       }
     ]
