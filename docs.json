@@ -37,7 +37,8 @@
           "platform/wield-bot",
           "platform/dashboard",
           "platform/terminal",
-          "platform/payouts"
+          "platform/payouts",
+          "platform/pwa"
         ]
       },
       {
