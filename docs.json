@@ -1,13 +1,16 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "theme": "maple",
+  "name": "Wield",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#103A52",
+    "light": "#3EB0CE",
+    "dark": "#0E6E8C"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/images/wield-mark-positive.svg",
+    "dark": "/images/wield-mark-reversed.svg"
+  },
   "navigation": {
     "pages": [
       {
@@ -18,36 +21,54 @@
         ]
       }
     ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "how-it-works",
+          "faq"
+        ]
+      },
+      {
+        "group": "Platform",
+        "icon": "display",
+        "pages": [
+          "platform",
+          "platform/wield-bot",
+          "platform/dashboard",
+          "platform/terminal",
+          "platform/markets",
+          "platform/payouts"
+        ]
+      },
+      {
+        "group": "Trading",
+        "pages": [
+          "evaluations",
+          "trading-accounts",
+          "tax",
+          "progression"
+        ]
+      },
+      {
+        "group": "Get Access",
+        "pages": [
+          "early-access",
+          "start"
+        ]
+      }
+    ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/wield-lockup-horizontal-positive.svg",
+    "dark": "/images/wield-lockup-horizontal-reversed.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Start the Wield bot",
+      "href": "https://t.me/wieldOfficialBot"
     }
   },
   "contextual": {
@@ -63,10 +84,67 @@
     ]
   },
   "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+    "links": [
+      {
+        "header": "Legal",
+        "items": [
+          {
+            "label": "Terms & Conditions",
+            "href": "https://wieldhq.com/legal/terms"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "https://wieldhq.com/legal/privacy-policy"
+          },
+          {
+            "label": "Refund Policy",
+            "href": "https://wieldhq.com/legal/refund-policy"
+          },
+          {
+            "label": "Contributor Agreement",
+            "href": "https://wieldhq.com/legal/contributor-agreement"
+          },
+          {
+            "label": "Acceptable Use Policy",
+            "href": "https://wieldhq.com/legal/acceptable-use-policy"
+          },
+          {
+            "label": "Pre-Sale Disclosure",
+            "href": "https://wieldhq.com/legal/early-access"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Trading infrastructure for skill-based capital, built for Indian traders. Pass an evaluation, hold a trading account, and receive your earnings as documented INR to your bank.",
+  "redirects": [
+    {
+      "source": "/funded-accounts",
+      "destination": "/trading-accounts",
+      "permanent": true
+    },
+    {
+      "source": "/payouts",
+      "destination": "/platform/payouts",
+      "permanent": true
+    },
+    {
+      "source": "/scaling",
+      "destination": "/progression",
+      "permanent": true
+    }
+  ],
+  "seo": {
+    "metatags": {
+      "og:type": "website",
+      "og:site_name": "Wield"
+    },
+    "indexing": "all"
+  },
+  "background": {
+    "color": {
+      "light": "#FBFBF9",
+      "dark": "#1A2332"
     }
   }
 }
