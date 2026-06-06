@@ -1,9 +1,63 @@
 ---
 title: "Dashboard"
-description: "The Wield dashboard: your balance, real-time risk and drawdown meters, your live performance rating, and the payout hub, in one place."
+description: "The Wield dashboard: your central hub for evaluations and trading accounts — balance and PnL charts, live risk and drawdown meters, account statistics, your performance rating, and the payout hub."
 icon: "gauge-high"
 ---
 
-Your dashboard is where you see your account at a glance: your balance, real-time risk and drawdown meters, your live performance rating, and the payout hub.
+The dashboard is your central hub for monitoring performance across both evaluations and trading accounts. Equity is snapshotted through the day and aggregated into charts and lifetime metrics, so you always have a clear picture of how you're trading — and exactly where you stand against every limit.
 
-The risk meters show your live distance to both limits as you trade, so nothing about where your account stands is hidden.
+The risk meters show your live distance to both limits as you trade. Nothing about where your account stands is hidden.
+
+## Performance charts
+
+Historical performance with selectable time ranges (1D, 1W, 1M, 1Y, MAX), with resolution adjusting to the range you choose.
+
+<CardGroup cols={3}>
+  <Card title="Account balance" icon="chart-area">
+    Your equity curve plotted against your profit target, daily loss limit, and maximum loss floor — so progress and risk are visible on one chart.
+  </Card>
+
+  <Card title="PnL" icon="chart-line">
+    Cumulative PnL over time, tracking net performance across the account's life.
+  </Card>
+
+  <Card title="Trading days" icon="calendar">
+    A calendar view of daily PnL, trade count, and end-of-day balance. Open any day for the detail behind it.
+  </Card>
+</CardGroup>
+
+## Account statistics
+
+Lifetime figures for the selected account, calculated from closed positions.
+
+| Metric | What it shows |
+| --- | --- |
+| **Trading days** | Days with at least one position opened or closed, on IST boundaries |
+| **Total trades** | Closed positions across the account's life |
+| **Win rate** | Winning trades as a share of closed trades |
+| **Avg. profit per day** | Net PnL divided by the days since the account opened |
+
+## Account overview
+
+Each account shows its current status and risk parameters at a glance.
+
+| Field | What it shows |
+| --- | --- |
+| **Status** | Active evaluation, passed, or breached |
+| **Cumulative PnL** | Net PnL over the account's life |
+| **Profit target** | Progress toward the 8% target (evaluation only) |
+| **Daily loss** | Today's loss against the 5% daily limit, with a reset countdown to the next IST day |
+| **Maximum loss** | Current drawdown against the 10% floor |
+| **Performance rating** | Your live rating (trading accounts) |
+
+## Performance rating
+
+Your trading account carries a live performance rating based on your risk-adjusted returns, the consistency of those returns, and longevity. You get full visibility into your rating and how it is calculated — the same inputs, weighted the same way, for every account.
+
+## Payout hub
+
+Once you hold a trading account, the payout hub is where you request a payout and see your full payout history in one place. Requests are settled in INR to your bank through Xflow, our RBI-authorised partner, within 24 hours. See [Payouts](/platform/payouts) for the full flow.
+
+<Info>
+  Your balance and PnL reflect a simulated account on live market data — the payout you withdraw in INR is real. See the [Overview](/platform) for how the environment works.
+</Info>
