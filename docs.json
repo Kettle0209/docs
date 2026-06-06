@@ -47,7 +47,7 @@
           "evaluations",
           "trading-accounts",
           "tax",
-          "scaling"
+          "progression"
         ]
       },
       {
@@ -131,6 +131,11 @@
     {
       "source": "/payouts",
       "destination": "/platform/payouts",
+      "permanent": true
+    },
+    {
+      "source": "/scaling",
+      "destination": "/progression",
       "permanent": true
     }
   ],
