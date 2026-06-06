@@ -37,6 +37,7 @@
           "platform/wield-bot",
           "platform/dashboard",
           "platform/terminal",
+          "platform/markets",
           "platform/payouts"
         ]
       },
