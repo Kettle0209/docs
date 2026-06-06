@@ -45,7 +45,6 @@
         "pages": [
           "evaluations",
           "trading-accounts",
-          "payouts",
           "tax",
           "scaling"
         ]
@@ -126,6 +125,11 @@
     {
       "source": "/funded-accounts",
       "destination": "/trading-accounts",
+      "permanent": true
+    },
+    {
+      "source": "/payouts",
+      "destination": "/platform/payouts",
       "permanent": true
     }
   ],

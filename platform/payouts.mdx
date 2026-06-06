@@ -1,10 +1,14 @@
 ---
 title: "Payouts"
-description: "How you get paid on Wield: request a payout, and it settles to your bank in INR through an RBI-authorised rail, with an eFIRA document for every payment."
+description: "How you get paid on Wield: withdraw to your bank in INR through Xflow, an RBI-authorised partner, with an eFIRA issued in your name for every payment. KYC before your first withdrawal."
 icon: "money-bill-transfer"
 ---
 
 Wield pays you in INR, directly to your bank. There is no crypto to off-ramp, no wallet to manage, and no P2P step — your payout settles through a regulated remittance rail and arrives as an on-record bank transfer, with a remittance document (eFIRA) for every payment.
+
+<Note>
+  Wield runs on simulated execution against a live market feed — no real assets are bought or sold, and none of your own capital is in the account. The payout you withdraw in INR is real.
+</Note>
 
 ## How a payout works
 
@@ -13,19 +17,35 @@ Wield pays you in INR, directly to your bank. There is no crypto to off-ramp, no
     From the dashboard, choose an amount available for payout and confirm. There is no minimum withdrawal amount.
   </Step>
   <Step title="We process it through Xflow">
-    Your payout is sent through Xflow, our RBI-authorised payment partner, and converted to INR at the prevailing rate available to Xflow when the payment is initiated. The exact conversion rate is shown to you at the time of each payout.
+    The payment is made from Wield — operated by Vipas Ventures MB — to you, an India-resident provider of analysis, through Xflow, our RBI-authorised partner. The amount you withdraw is converted to INR at the prevailing rate, shown to you at the time of each payout.
   </Step>
   <Step title="INR arrives in your bank">
-    The funds settle to your bank account in INR, within 24 hours.
+    The funds settle to your bank account in INR, against your PAN, within 24 hours.
   </Step>
   <Step title="You receive your eFIRA">
-    Your remittance documentation (eFIRA) is emailed to you within 24 hours of the bank deposit — a record of the payment for your files.
+    An eFIRA is issued in your name for each payment and emailed within 24 hours of the deposit — a record of the payment for your files.
   </Step>
 </Steps>
 
 ## When you can withdraw
 
-Your first payout is available after 5 trading days, which gives a sufficient basis for assessing your analysis. After your first payout, you can request payouts on demand — including more than once a day — subject to a balance available for payout, your account remaining in good standing, and normal processing time.
+Your first payout is available after 5 active days, which gives a sufficient basis for assessing your analysis. After your first payout, you can request payouts on demand — including more than once a day — subject to a balance available for payout, your account remaining in good standing, and normal processing time.
+
+Before your first withdrawal, you complete a one-time identity check (KYC). This protects your account.
+
+## Payouts and your drawdown
+
+Taking a payout does not reduce your loss budget or move your maximum-loss floor. Your risk parameters stay where they are — withdrawing earnings and trading your account are kept separate.
+
+## What an eFIRA is
+
+<Info>
+  An eFIRA is an official bank record. It shows that your INR came from a known company outside India, as payment for a service — the same proof IT exporters and freelancers get when they invoice clients abroad.
+
+  Each one names who sent the money, how much, the date, and you as the person who received it.
+
+  It does not stop a bank from asking about a transfer — nothing does. But every payment you receive has a clear sender, a regulated payment route, and a record behind it.
+</Info>
 
 ## How payouts are verified
 
@@ -33,7 +53,7 @@ Wield's trust signals aren't a transaction hash — they're the things that matt
 
 <CardGroup cols={3}>
   <Card title="A real, registered entity" icon="building">
-    Payouts come from Vipas Ventures MB, incorporated in Lithuania. You can verify it on the [public Lithuanian register](https://www.registrucentras.lt/jar/p_en/).
+    Payouts come from Vipas Ventures MB, registered in Lithuania (code 306998929). Verify it on the [public Lithuanian register](https://www.registrucentras.lt/jar/p_en/).
   </Card>
 
   <Card title="An RBI-authorised rail" icon="indian-rupee-sign">
@@ -45,18 +65,34 @@ Wield's trust signals aren't a transaction hash — they're the things that matt
   </Card>
 </CardGroup>
 
+Grievances are handled at [grievance@wieldhq.com](mailto:grievance@wieldhq.com).
+
+## When a payout can be withheld
+
+Earned payouts are paid regardless of how your engagement ends, and they are not subject to discretionary review. The limited circumstances in which a payout can be withheld — such as fraud — are set out in the [Contributor Agreement](https://wieldhq.com/legal/contributor-agreement).
+
 ## Payout terms
 
 | Term | Wield |
 | --- | --- |
-| **Reward share** | Up to 80% (by reference scale — see [Evaluations](/evaluations)) |
+| **Payout share** | Up to 80% (78% at the two largest account sizes) |
 | **Currency** | INR, settled to your bank |
 | **Rail** | Xflow (RBI-authorised) |
 | **Processing time** | Within 24 hours |
-| **First payout** | After 5 trading days |
+| **First payout** | After 5 active days |
 | **After first payout** | On demand, including multiple times per day |
 | **Minimum withdrawal** | None |
 | **Documentation** | eFIRA per payout |
+
+## How payouts are taxed
+
+Your payout comes with an eFIRA in your name — an official bank record showing it as a service payment from a company outside India. On that basis it is treated as professional-services income, not a crypto gain.
+
+How this works for you depends on your situation, and your CA can confirm it. Wield gives you the documents; it does not give tax advice.
+
+<Card title="How payouts are taxed, in full" icon="receipt" href="/tax">
+  The professional-services treatment, the eFIRA, and what to take to your CA.
+</Card>
 
 ## Payout history
 
