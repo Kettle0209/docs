@@ -26,8 +26,18 @@
         "group": "Getting Started",
         "pages": [
           "index",
-          "how-it-works",
-          "platform"
+          "how-it-works"
+        ]
+      },
+      {
+        "group": "Platform",
+        "icon": "display",
+        "pages": [
+          "platform",
+          "platform/wield-bot",
+          "platform/dashboard",
+          "platform/terminal",
+          "platform/payouts"
         ]
       },
       {
