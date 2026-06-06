@@ -90,27 +90,27 @@
         "items": [
           {
             "label": "Terms & Conditions",
-            "href": "https://wieldhq.com/legal"
+            "href": "https://wieldhq.com/legal/terms"
           },
           {
             "label": "Privacy Policy",
-            "href": "https://wieldhq.com/legal"
+            "href": "https://wieldhq.com/legal/privacy-policy"
           },
           {
             "label": "Refund Policy",
-            "href": "https://wieldhq.com/legal"
+            "href": "https://wieldhq.com/legal/refund-policy"
           },
           {
             "label": "Contributor Agreement",
-            "href": "https://wieldhq.com/legal"
+            "href": "https://wieldhq.com/legal/contributor-agreement"
           },
           {
             "label": "Acceptable Use Policy",
-            "href": "https://wieldhq.com/legal"
+            "href": "https://wieldhq.com/legal/acceptable-use-policy"
           },
           {
             "label": "Pre-Sale Disclosure",
-            "href": "https://wieldhq.com/legal"
+            "href": "https://wieldhq.com/legal/early-access"
           }
         ]
       }
